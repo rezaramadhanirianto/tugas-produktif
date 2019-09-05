@@ -19,6 +19,7 @@ class CreateGoodsModelsTable extends Migration
             $table->integer('price');
             $table->string('category');
             $table->integer('stock');
+            $table->string('img');
             $table->timestamps();
         });
     }
